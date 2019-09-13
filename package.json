@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "test": "testcafe chrome test.js",
-    "test:ci": "testcafe "saucelabs:Chrome@beta:Windows 10" test.js"
+    "test:ci": "testcafe 'saucelabs:Chrome@beta:Windows 10' test.js"
   },
   "devDependencies": {
     "testcafe": "^1.5.0"
