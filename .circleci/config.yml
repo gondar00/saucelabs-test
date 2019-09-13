@@ -24,4 +24,4 @@ jobs:
      # End-to-end tests
      - run:
          name: Run e2e tests
-         command: yarn test
+         command: yarn test:ci
